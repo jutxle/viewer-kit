@@ -164,7 +164,7 @@ module.exports = function (grunt) {
                     'dist/viewer.js': [
                         'node_modules/amplience-sdk-client/dist/video-js/video.min.js',
                         'node_modules/amplience-sdk-client/dist/amplience-sdk-client.js',
-                        'node_modules/handlebars/dist/handlebars.runtime.js',
+                        // 'node_modules/handlebars/dist/handlebars.runtime.js',
                         '.tmp/templates.js',
                         'src/js/hbs-helpers.js',
                         'src/js/detect.min.js',
@@ -195,7 +195,7 @@ module.exports = function (grunt) {
                         'node_modules/amplience-sdk-client/src/amp.ui/widget-zoom-inline.js',
                         'node_modules/amplience-sdk-client/src/amp.ui/widget-video.js',
                         'node_modules/amplience-sdk-client/src/amp.ui/widget-spin.js',
-                        'node_modules/grunt-contrib-handlebars/node_modules/handlebars/dist/handlebars.runtime.min.js',
+                        // 'node_modules/grunt-contrib-handlebars/node_modules/handlebars/dist/handlebars.runtime.min.js',
                         '.tmp/templates.js',
                         'src/js/hbs-helpers.js',
                         'src/js/detect.min.js',
